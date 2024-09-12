@@ -1,18 +1,21 @@
 from tkinter import *
-from urllib.request import urlopen
+import urllib.request
 from PIL import ImageTk, Image
 from io import BytesIO
 import json
 
 class WebImage:
     def __init__(self, url):
-        response = urlopen(url)
+        response = urllib.request.urlopen(url)
         self.image = ImageTk.PhotoImage(Image.open(BytesIO(response.read()))).resize(48, 48)
 
     def get(self):
         return self.image
 
-with urlopen("https://raw.githubusercontent.com/techguy16/XP-Apps/main/database/apps.json") as data:
+datareq = urllib.request.Request(
+    "https://raw.githubusercontent.com/techguy16/XP-Apps/main/database/apps.json",headers={'User-Agent': 'Mozilla/5.0'}
+)
+with urllib.request.urlopen(datareq) as data:
     apps = json.loads(data.read())
     print(apps)
 
@@ -33,6 +36,7 @@ app_list = Frame(
 
 ypos = 60
 for item in apps:
+    print(item)
     logo = WebImage(item["logo"]).get()
     Button(app_list, text=f"{item["name"]}", height=7,width=50,command=lambda appname=item["name"], logod=logo: displayAppData(appname,logod)).place(x=30,y=ypos)
     ypos += 150
