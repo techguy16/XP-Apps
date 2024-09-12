@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Supermium",
+        "version": "126.0.6478.249",
+        "description": "Up-to-date Chromium-based browser for Windows XP and above.",
+        "downloads": {
+            "32bit":"https://github.com/win32ss/supermium/releases/download/v126-r3/supermium_126_32_setup.exe",
+            "64bit":"https://github.com/win32ss/supermium/releases/download/v126-r3/supermium_126_64_setup.exe"
+        },
+        "install_flags":"-y --silent --system-level --shortcuts --install_emoji",
+        "uninstaller": "",
+        "uninstall_flags": ""
+    },
+    {
+        "name": "7-Zip",
+        "version": "24.08",
+        "description": "Free archivral program.",
+        "downloads": {
+            "32bit":"https://7-zip.org/a/7z2408.exe",
+            "64bit":"https://7-zip.org/a/7z2408-x64.exe"
+        },
+        "install_flags":"/S",
+        "uninstaller": "",
+        "uninstall_flags": ""
+    }
+]
