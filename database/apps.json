@@ -3,6 +3,7 @@
         "name": "Supermium",
         "version": "126.0.6478.249",
         "description": "Up-to-date Chromium-based browser for Windows XP and above.",
+        "logo":"https://private-user-images.githubusercontent.com/68521531/313386509-f34ceb1c-15b2-4818-af1f-c0251c77af2f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjYxMDIxNTEsIm5iZiI6MTcyNjEwMTg1MSwicGF0aCI6Ii82ODUyMTUzMS8zMTMzODY1MDktZjM0Y2ViMWMtMTViMi00ODE4LWFmMWYtYzAyNTFjNzdhZjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA5MTIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwOTEyVDAwNDQxMVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRkZGQ1YWE0OThiMjI4ODQxYjRlMDk4MzQwOTY2MTZiMTkwZTU3ZGQyY2E0NmQ3OTYyNmEwNTY3OGJmZWZiZjQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.JRbWdymYWypmNDolRYU4w8AZ9PpbkNMqBZY8z7OtuYc",
         "downloads": {
             "32bit":"https://github.com/win32ss/supermium/releases/download/v126-r3/supermium_126_32_setup.exe",
             "64bit":"https://github.com/win32ss/supermium/releases/download/v126-r3/supermium_126_64_setup.exe"
@@ -15,6 +16,7 @@
         "name": "7-Zip",
         "version": "24.08",
         "description": "Free archivral program.",
+        "logo":"https://7-zip.org/7ziplogo.png",
         "downloads": {
             "32bit":"https://7-zip.org/a/7z2408.exe",
             "64bit":"https://7-zip.org/a/7z2408-x64.exe"
